@@ -3,7 +3,7 @@ from modeller import *                   # Load standard Modeller classes
 from modeller.automodel import *         # Load the automodel class
 
 seq="adeB"
-align="adeB-vs-acrB.ali"
+align="alignment.ali"
 struct="2J8S.pdb"
 
 log.verbose()                            # request verbose output 
