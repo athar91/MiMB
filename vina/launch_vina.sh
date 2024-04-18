@@ -1,6 +1,6 @@
-conda activate autodock_gpu
-source /home/mathar/programs/mgltools_x86_64Linux2_1.5.7/bin/mglenv.sh
-MGL_dir=/home/mathar/programs/mgltools_x86_64Linux2_1.5.7/MGLToolsPckgs/AutoDockTools/Utilities24
+#conda activate vina
+source /$path/mgltools_x86_64Linux2_1.5.7/bin/mglenv.sh
+MGL_dir=/$path/mgltools_x86_64Linux2_1.5.7/MGLToolsPckgs/AutoDockTools/Utilities24
 N_replicas=1
 for i in $(ls rec/rec*.pdb) 
 do 
