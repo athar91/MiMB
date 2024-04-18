@@ -1,0 +1,16 @@
+# To execute type: tleap -f leap.in
+# Substitute #IONS with the number of ions to reach 0.15M ionic concentration
+
+source leaprc.protein.ff19SB 
+source leaprc.water.opc 
+source leaprc.lipid17 
+source leaprc.gaff2 
+loadamberprep MOL.prep 
+loadamberparams MOL.frcmod 
+com=loadpdb system.pdb 
+setbox com vdw 0 
+addionsrand com K+ #IONS 
+addionsrand com Cl- #IONS 
+savepdb com system_final.pdb 
+saveamberparm com system.parm7 system.rst7 
+quit 

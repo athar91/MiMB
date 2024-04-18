@@ -1,0 +1,23 @@
+# Production run at 310K and 1atm in the NTP ensemble (1000 ns)
+&cntrl  
+imin = 0, 
+irest = 1, 
+ntx = 5, 
+ntb = 1, 
+cut = 12.0, 
+ig = -1,
+ntf = 2, 
+ntc = 2,  
+ntp = 2, 
+taup = 1.0, 
+ntt = 3, 
+temp0 = 310,
+gamma_ln = 5.0, 
+nstlim = 250000000,  
+ntpr = 10000, 
+ntwx = 10000, 
+ntwr = 10000, 
+ntwe = 10000,  
+dt = 0.004, 
+ioutfm=1, 
+/  

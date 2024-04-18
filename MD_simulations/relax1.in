@@ -1,0 +1,16 @@
+# Relaxation of waters molecules and ions (K+ and Cl-)
+&cntrl
+imin=1,
+maxcyc=10000,
+ncyc=1000,
+cut=12.0,
+ntr=1,
+restraint_wt = 1.0, 
+ntb=0, 
+ntp=0, 
+ntf=1, 
+ntc=1, 
+ntpr=1000, 
+ntwr=1000, 
+restraintmask = "!(:WAT | :K+ | :Cl-) & !@H="
+/
