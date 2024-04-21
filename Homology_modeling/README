@@ -1,9 +1,11 @@
-#Install Modeller program using instructions https://salilab.org/modeller/download_installation.html
+#Install the Modeller program using instructions https://salilab.org/modeller/download_installation.html
 
 #Simple way to install by conda using https://anaconda.org/salilab/modeller
 conda install salilab::modeller
-#register and retrieve the license key at institutional email
-#edit the file $miniconda/envs/modeller/lib/modeller-10.5/modlib/modeller/config.py
+#register and retrieve the license key at the institutional email
+#Add the license code here: $miniconda/envs/modeller/lib/modeller-10.5/modlib/modeller/config.py
+# In our case, for the version 10.5, the calculation can be launched through
+mod10.5 model-generate.py
 
 
 
