@@ -26,6 +26,6 @@ a = automodel(env,
               assess_methods=(assess.DOPE))
 
 a.starting_model = 1
-a.ending_model = 100
+a.ending_model = 25
 #a.auto_align() # get an automatic alignment
 a.make()       # do homolgy modeling
