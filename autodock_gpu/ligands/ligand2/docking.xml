@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<result>
+	<clustering_histogram>
+		<cluster cluster_rank="1" lowest_binding_energy="-5.79" run="3" mean_binding_energy="-5.77" num_in_clus="9" />
+		<cluster cluster_rank="2" lowest_binding_energy="-5.49" run="9" mean_binding_energy="-5.49" num_in_clus="1" />
+	</clustering_histogram>
+	<rmsd_table>
+		<run rank="1" sub_rank="1" run="3" binding_energy="-5.79" cluster_rmsd="0.00" reference_rmsd="184.39" />
+		<run rank="1" sub_rank="2" run="4" binding_energy="-5.78" cluster_rmsd="0.05" reference_rmsd="184.36" />
+		<run rank="1" sub_rank="3" run="1" binding_energy="-5.77" cluster_rmsd="0.05" reference_rmsd="184.37" />
+		<run rank="1" sub_rank="4" run="10" binding_energy="-5.77" cluster_rmsd="0.13" reference_rmsd="184.30" />
+		<run rank="1" sub_rank="5" run="2" binding_energy="-5.76" cluster_rmsd="0.13" reference_rmsd="184.31" />
+		<run rank="1" sub_rank="6" run="6" binding_energy="-5.76" cluster_rmsd="0.15" reference_rmsd="184.30" />
+		<run rank="1" sub_rank="7" run="8" binding_energy="-5.76" cluster_rmsd="0.16" reference_rmsd="184.29" />
+		<run rank="1" sub_rank="8" run="7" binding_energy="-5.76" cluster_rmsd="0.10" reference_rmsd="184.35" />
+		<run rank="1" sub_rank="9" run="5" binding_energy="-5.75" cluster_rmsd="0.18" reference_rmsd="184.28" />
+		<run rank="2" sub_rank="1" run="9" binding_energy="-5.49" cluster_rmsd="0.00" reference_rmsd="186.44" />
+	</rmsd_table>
+</result>
