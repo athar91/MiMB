@@ -1,7 +1,6 @@
 receptor = rec.pdbqt
 ligand = lig.pdbqt
 out = docked.pdbqt
-log = log.txt
 center_x = 94.683
 center_y = 127.673 
 center_z = 99.960
