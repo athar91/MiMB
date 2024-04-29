@@ -1,4 +1,4 @@
-#This script has been tested for recent version of Vina v1.2.5, has been installed via conda (https://anaconda.org/conda-forge/vina)
+#This ensemble docking script has been tested for recent version of Vina v1.2.5, has been installed via conda (https://anaconda.org/conda-forge/vina)
 #conda activate vina
 source /$path/mgltools_x86_64Linux2_1.5.7/bin/mglenv.sh
 MGL_dir=/$path/mgltools_x86_64Linux2_1.5.7/MGLToolsPckgs/AutoDockTools/Utilities24
