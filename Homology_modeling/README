@@ -1,3 +1,4 @@
+#Current scripts generate homology model of AdeB using AcrB as a template. 
 #Install the Modeller program using instructions https://salilab.org/modeller/download_installation.html
 
 #Simple way to install by conda using https://anaconda.org/salilab/modeller
